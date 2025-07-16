@@ -1,0 +1,51 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+} 
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.rounded {
+border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1 { 
+        padding: 10px;
+}
+
+
+/* Targeting the scrollbar for webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+    height: 10px; /* Set the height of horizontal scrollbar */
+}
+
+/* Styling the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Dark gray track color */
+    border-radius: 10px;
+}
+
+/* Styling the handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Darker thumb color */
+    border-radius: 10px;
+}
+
+/* On hover, change the thumb to a lighter color */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter gray on hover */
+}
+
+/* Styling the corner of the scrollbar */
+::-webkit-scrollbar-corner {
+    background: #2c2c2c; /* Same as the track */
+}
